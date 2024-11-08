@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection
+# Credit Card Fraud Detection (SGDClassifier)
 
 ## Tyren Leong and Adrian Damian 
 
@@ -44,7 +44,7 @@ The evaluation metrics for both training and testing data are computed.
 | Training   |   0.960955   | 0.712381 | 0.984753  | 0.761236 | 0.478306   |
 | Test       |   0.961695    | 0.720537 | 0.984827  | 0.767051 | 0.463332   |
 
-![image](https://github.com/user-attachments/assets/879b1acb-49d4-48aa-b12c-4f9ece02fe41)
+![image](https://raw.githubusercontent.com/thebuddyadrian/Credit-Card-Fraud-Detection-SGDClassifier/refs/heads/main/output.png)
 
 ## Old Results using Naive Bayes Classifier (NBC)
 
@@ -58,3 +58,12 @@ The evaluation metrics for both training and testing data are computed.
 
 ## Comparison to NBC
 Logistic Regression has much better performance than Naive Bayes Classifier on both the test and training data, given the higher Accuracy, Sensitivty, and F1 Scores. This is crucial for fraud detection as it means the Logistic Regression classifier has a lower chance of flagging false positives and negatives. Although Logistic Regression has higher log loss, therefore more error in the probability distribution, this isn't as important in a classification task like fraud detection.
+
+## Installation
+
+Clone the Repository
+
+```bash
+git clone https://github.com/thebuddyadrian/Credit-Card-Fraud-Detection-SGDClassifier.git
+cd 
+```
